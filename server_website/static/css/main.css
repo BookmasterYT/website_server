@@ -1,0 +1,83 @@
+img{
+    border-radius:20px;
+}
+#HomeTitle{
+    font-family:'Courier New', Courier, monospace;
+    font-size:96px;
+    color: whitesmoke;
+    font-weight: 1500;
+    text-align: center;
+    padding-top: 100px;
+    animation-name: FadeIn;
+    animation-duration: 2s;
+}
+
+#HomeSubtitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 64px;
+    color: darkgrey;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -50px;
+    animation-name: FadeIn;
+    animation-duration: 3s;
+}
+
+#Description{
+    display: block;
+    background: url("/server_website/static/images/minecraft_screenshot.jpg") repeat 0 0;
+    height: 50px;
+
+}
+#DescriptionTitle{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 75px;
+    color: #111111;
+    text-align: left;
+    padding-top: 300px;
+}
+
+#NavBar{
+    position: sticky;
+    top: 0;
+    padding: 10px 0;
+}
+ul{
+    font-family: cursive;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategray;
+    border-radius: 32px;
+}
+
+#Button{
+    float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+#ContactButton{
+    float: right;
+}
+
+body{
+    background-repeat:no-repeat;
+    background-size: 1400px;
+}
+
+@keyframes FadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
