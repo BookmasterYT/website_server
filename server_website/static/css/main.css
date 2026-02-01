@@ -1,5 +1,7 @@
 img{
     border-radius:20px;
+    width: 40vw;
+    height: 25vw;
 }
 .center{
     display: flex;
@@ -15,10 +17,14 @@ img{
 }
 
 #HomeTitle{
+    background-position-x: -20px;
+    background-position-y: -150px;
+    background-image: url("../images/paint_stroke.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     align-self: center;
-    margin: 0 auto;
-    width: fit-content;
-    background-color: black;
+    margin: auto;
     font-family:'Courier New', Courier, monospace;
     font-size:96px;
     color: whitesmoke;
@@ -27,15 +33,6 @@ img{
     animation-duration: 2s;
 }
 
-#HomeSubtitle{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 64px;
-    -webkit-text-stroke: black 2px;
-    color: darkgrey;
-    font-weight: 800;
-    animation-name: FadeIn;
-    animation-duration: 3s;
-}
 
 #DescriptionTitle{
     font-family:'Courier New', Courier, monospace;
@@ -43,13 +40,19 @@ img{
     color: #111111;
     text-align: left;
 }
+#DescriptionText{
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    align-items: center;
+}
 
 #NavBar{
     position: sticky;
     top: 0;
     padding: 10px 0;
 }
-ul{
+.nav{
     font-family: cursive;
     list-style: none;
     margin: 0;
@@ -59,7 +62,7 @@ ul{
     border-radius: 32px;
 }
 
-#Button{
+.Button{
     float: left;
 }
 
@@ -75,8 +78,17 @@ ul li a:hover {
   background-color: #111111;
 }
 
-#ContactButton{
+.RightFloat{
     float: right;
+    display: block;
+    color: white;
+}
+
+#Map{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 
 body{
