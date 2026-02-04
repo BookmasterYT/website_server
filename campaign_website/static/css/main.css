@@ -1,0 +1,155 @@
+#Logo{
+    width: 10vw;
+    height: 10vh;
+}
+#NavBar{
+    position: sticky;
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+.TxtButton{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    float: right;
+    padding-right: 10px;
+}
+ul{
+    font-family: "Outfit", sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslateblue;
+}
+
+ul li{
+    float: left;
+}
+
+ul li a{
+    display: block;
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: red;
+}
+
+
+#Header{
+    background-image: url("../images/donaldtrump.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+#AboutHeader{
+    background-image: url("../images/Roger.jpg");
+    background-size: cover;
+    margin: auto;
+    height: 100vh;
+}
+#AboutBox{
+    margin-left: 25px;
+    margin-top: -60vh;
+    width: 30vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#Description{
+    margin-top: 50vh;
+    background-color: #333333;
+    padding: 20px
+}
+
+
+#Footer{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#FooterText{
+    float: right;
+    margin-right: 20px;
+}
+#FLEPimg{
+    border-radius: 50px;
+    width: 30vw;
+    height: 60vh;
+}
+#OBAMAimg{
+    border-radius: 50px;
+    width: 30vw;
+    height: 60vh;
+}
+#Washingtonimg{
+    border-radius: 50px;
+    width: 30vw;
+    height: 60vh;
+}
+#Vecnaimg{
+    border-radius: 50px;
+    width: 30vw;
+    height: 60vh;
+}
+#Obama{
+    margin-top: 0;
+}
+#Washington{
+    margin-top: 0;
+}
+
+
+.review{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-left: 50vw;
+    margin-top: -275px;
+    margin-bottom: 125px;
+    border-radius: 45px;
+    background-color: grey;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    color: #222222
+}
+.section{
+    margin-top: 50vh;
+    background-color: #333333;
+    padding: 20px
+}
+.gradient{
+    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
+    width: 100vw;
+    height: 100vh;
+}
+.box{
+    background-color: darkslategrey;
+    border-radius: 10px;
+    width: 15vw;
+    height: 10vh;
+}
+.FontThin{
+    font-weight: lighter;
+    font-size: 24px;
+    font-family: "Outfit", sans-serif;
+    color: white;
+}
+.FontBold{
+    font-size: 32px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+body{
+    background-color: #222222;
+}
