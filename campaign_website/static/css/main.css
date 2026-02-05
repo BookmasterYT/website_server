@@ -1,155 +1,186 @@
-#Logo{
-    width: 10vw;
-    height: 10vh;
+body{
+    background-color: #111111;
 }
 #NavBar{
     position: sticky;
+    margin: -8px;
     padding: 0;
-    margin: 0;
     top: 0;
 }
-.TxtButton{
-    padding-top: 15px;
-    padding-bottom: 15px;
-    float: right;
-    padding-right: 10px;
-}
-ul{
+#Footer{
+    background-color: #111111;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     font-family: "Outfit", sans-serif;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: darkslateblue;
+    font-weight: lighter;
+    font-size: 24px;
 }
-
-ul li{
+#ImageButton{
+    width: 150px;
+    height: 50px;
     float: left;
 }
+#HomeHeader{
+    background-image: url("../images/donaldtrump.jpg");
+}
+#DonateHeader{
+    background-image: url("../images/donate.jpg");
+}
+#FLEP{
+    display: flex;
+    align-items: center;
+}
+#Obama{
+    display: flex;
+    align-items: center;
+}
+#Washington{
+    display: flex;
+    align-items: center;
+}
+#Vecna{
+    display: flex;
+    align-items: center;
+}
+#Jadon{
+    display: flex;
+    align-items: center;
+}
+#AbramDonor{
+    display: flex;
+    align-items: center;
+}
+#ElijahDonor{
+    display: flex;
+    align-items: center;
+}
+#form input{
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 24px;
+}
+#Timeline{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+#Foreword{
+    margin-left: 25px;
+    font-size: 24px;
+}
+#Foreword a{
+    color: deepskyblue;
+    text-decoration: none;
+}
 
-ul li a{
+
+
+
+ol{
+    list-style: upper-roman;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li a{
+    font-family: "Outfit", sans-serif;
     display: block;
-    padding: 10px;
+    padding-left: 20px;
     font-size: 24px;
     color: white;
     text-decoration: none;
 }
-
-ul li a:hover{
+nav ul li a:hover{
     color: red;
 }
 
 
-#Header{
-    background-image: url("../images/donaldtrump.jpg");
-    background-size: cover;
-    height: 100vh;
-}
-#AboutHeader{
-    background-image: url("../images/Roger.jpg");
-    background-size: cover;
-    margin: auto;
-    height: 100vh;
-}
-#AboutBox{
-    margin-left: 25px;
-    margin-top: -60vh;
-    width: 30vw;
-    height: 10vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-#Description{
-    margin-top: 50vh;
-    background-color: #333333;
-    padding: 20px
-}
 
-
-#Footer{
-    width: 100vw;
-    height: 20vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#FooterText{
-    float: right;
-    margin-right: 20px;
-}
-#FLEPimg{
-    border-radius: 50px;
-    width: 30vw;
-    height: 60vh;
-}
-#OBAMAimg{
-    border-radius: 50px;
-    width: 30vw;
-    height: 60vh;
-}
-#Washingtonimg{
-    border-radius: 50px;
-    width: 30vw;
-    height: 60vh;
-}
-#Vecnaimg{
-    border-radius: 50px;
-    width: 30vw;
-    height: 60vh;
-}
-#Obama{
-    margin-top: 0;
-}
-#Washington{
-    margin-top: 0;
-}
-
-
-.review{
-    display: flex;
-    padding: 20px;
-    align-items: center;
-    justify-content: center;
-    width: 500px;
-    margin-left: 50vw;
-    margin-top: -275px;
-    margin-bottom: 125px;
-    border-radius: 45px;
-    background-color: grey;
+.whiteFont{
     font-family: "Outfit", sans-serif;
-    font-size: 32px;
-    color: #222222
+    font-weight: normal;
+    color: white;
+}
+
+.imageSection{
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    margin: -8px;
+
 }
 .section{
-    margin-top: 50vh;
     background-color: #333333;
-    padding: 20px
-}
-.gradient{
-    background: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
     width: 100vw;
-    height: 100vh;
+    margin: -8px;
+    padding: 10;
 }
-.box{
-    background-color: darkslategrey;
-    border-radius: 10px;
-    width: 15vw;
-    height: 10vh;
+.subsection{
+    background-color: #111111;
+    display: block;
+    padding: 15px;
+    margin: 15px;
+}
+.PlainButton{
+    float: right;
+}
+.quote{
+    width: 400px;
+    height: 210px;
+    overflow: hidden;
+    margin-left: 50px;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    color: white;
+    font-weight: bold;
+}
+.endorsement{
+    margin-bottom: 50px;
+}
+.endorsementImage{
+    border-radius: 32px;
+    width: 400px;
+    height: 400px;
+    margin-left: 40px;
+}
+.endorsementQuote{
+    margin-left: 50px;
+    color: white;
+    font-size: 50px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+}
+.sectionTitle{
+    font-weight: bold;
+    font-family: "Outfit", sans-serif;
+    font-size: 32px;
+    color: white;
+    padding: 25px;
 }
 .FontThin{
     font-weight: lighter;
-    font-size: 24px;
     font-family: "Outfit", sans-serif;
-    color: white;
 }
 .FontBold{
-    font-size: 32px;
-    font-family: "Outfit", sans-serif;
     font-weight: bold;
-    color: white;
 }
-body{
-    background-color: #222222;
+.headerGradient{
+    background-image: linear-gradient(to right, rgb(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    height: 900px;
+    width: 100vw;
+    margin-top: -900px;
+    margin-left: -8px;
 }

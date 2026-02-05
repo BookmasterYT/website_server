@@ -14,5 +14,14 @@ def about():
 def policy():
     return render_template("policy.html")
 
+@app.route("/about/support")
+def support():
+    return render_template("support.html")
+
+@app.route("/resources/constitution")
+def constitution():
+    return render_template("constitution.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
