@@ -49,11 +49,23 @@ body{
     display: flex;
     align-items: center;
 }
+#Judah_Calvin{
+    display: flex;
+    align-items: center;
+}
 #AbramDonor{
     display: flex;
     align-items: center;
 }
 #ElijahDonor{
+    display: flex;
+    align-items: center;
+}
+#JackDonor{
+    display: flex;
+    align-items: center;
+}
+#BeckerDonor{
     display: flex;
     align-items: center;
 }
@@ -79,11 +91,22 @@ body{
 #ConstitutionTitle{
     padding-top: 25px;
     margin-left: 25px;
-    font-family: cursive;
+    font-family: "Dancing Script", cursive;
     font-weight: bold;
     font-size: 64px;
     color: white;
 }
+#QuoteOwner{
+    font-size: 30px;
+}
+#Accomplishments{
+    padding-left: 25px;
+}
+#BackButton{
+    
+}
+
+
 
 
 
@@ -145,7 +168,7 @@ nav ul li a:hover{
     float: right;
 }
 .quote{
-    width: 400px;
+    width: 500px;
     height: 210px;
     overflow: hidden;
     margin-left: 50px;
