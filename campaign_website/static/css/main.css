@@ -69,6 +69,10 @@ body{
     display: flex;
     align-items: center;
 }
+#EmilyDonor{
+    display: flex;
+    align-items: center;
+}
 #form input{
     margin-left: 20px;
     width: 300px;
@@ -112,16 +116,11 @@ body{
     display: flex;
     justify-content: center;
 }
-#VPrez{
+#Admin{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-#P_VP{
-    display: flex;
-    justify-content: center;
-}
-
-
 
 
 
@@ -234,4 +233,10 @@ nav ul li a:hover{
     width: 10px;
     height: 150px;
     background-color: black;
+}
+.AdminImage{
+    border-radius: 57px;
+    padding: 25px;
+    width: 400px;
+    height: 400px;
 }
