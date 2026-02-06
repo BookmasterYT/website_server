@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+from waitress import serve
 
 app = Flask(__name__)
 
@@ -24,4 +25,4 @@ def constitution():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    serve(app, port=80, host="10.0.0.214")
