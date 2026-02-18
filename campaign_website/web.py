@@ -25,4 +25,5 @@ def constitution():
 
 
 if __name__ == "__main__":
+    # app.run(debug=True)
     serve(app, port=80, host="10.0.0.214")

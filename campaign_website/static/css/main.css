@@ -57,6 +57,14 @@ body{
     display: flex;
     align-items: center;
 }
+#CalebDonor{
+    display: flex;
+    align-items: center;
+}
+#EliDonor{
+    display: flex;
+    align-items: center;
+}
 #ElijahDonor{
     display: flex;
     align-items: center;
@@ -120,6 +128,60 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+
+
+#submit{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+.entryarea{
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+}
+input{
+    margin-left: 10px;
+    position: absolute;
+    width: 25%;
+    outline: none;
+    font-size: large;
+    padding: 0 15px;
+    line-height: 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+    margin-bottom: -100px;
+}
+.labelline{
+    margin-left: 10px;
+    position: absolute;
+    font-size: normal;
+    color: white;
+    padding: 0 12px;
+    margin: 0 10px;
+    background-color: #333333;
+    transition: 0.2s ease;
+}
+input:focus,
+input:valid{
+    border: 4px solid greenyellow;
+    color:greenyellow
+}
+input:focus + .labelline,
+input:valid + .labelline{
+    color: greenyellow;
+    height: 15px;
+    line-height: 15px;
+    padding: 0 12px;
+    transform: translate(5px, -8px) scale(0.88);
+    z-index: 1111;
 }
 
 
